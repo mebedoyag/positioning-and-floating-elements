@@ -109,12 +109,96 @@ a {
 
 }
 
+/* Article */
+
+.article-header > * {
+  margin-bottom: 15px;
+}
+
+.main p {
+  margin-bottom: 20px;
+}
+
+.read-more {
+  margin-bottom: 20px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-wrapper {
+  flex: 2;
+}
+
+.main-aside {
+  flex: 1;
+}
+
+.article-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 750px;
+}
+
+.art-sug > * {
+  margin-bottom: 30px;
+}
+
+/* Social */
+
+.social {
+  background-color: lightgray;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+}
+
+.social-logos {
+  display: flex;
+}
+
+/* More content */
+
+.more img {
+  width: 250px;
+}
+
+.more {
+  display: flex;
+}
+
+.more h2 {
+  flex: 1;
+}
+
+
+
+
+
 /* Helper */
 
 /* .header-firstline {
   border: 2px solid red;
 } */
 
-.header-secondline {
+/* .header-secondline {
   border: 2px solid red;
-}
+} */
+
+/* .main {
+  border: 2px solid greenyellow;
+} */
+
+/* .main-aside {
+  border: 1px solid red;
+} */
+
+/* .main footer {
+  border: 1px solid yellow;
+} */
+
+
+
